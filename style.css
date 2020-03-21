@@ -1,0 +1,56 @@
+.container {
+    text-align: center;
+    font-family: Open Sans;
+}
+
+.main-content {
+    margin-top: 100px;
+}
+
+.svg-pic {
+fill: white;
+margin: auto;
+}
+
+.circle {
+border-radius: 100%;
+background-color: rgb(18, 117, 185);
+width: 65px;
+height: 65px;
+display: block;
+margin: auto;
+border-color: rgb(18, 117, 185);
+border-style: solid;
+border-width: 2px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.circle {
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+p {
+    font-weight: 300;
+}
+
+.circle:hover {
+    transition: 0.3s;
+    background-color: white;
+}
+
+.circle:hover .svg-pic{
+    fill: rgb(18, 117, 185);;
+}
+
+.up {
+    
+}
